@@ -24,7 +24,13 @@ def get_user_input():
 def create_user():
     new_user = get_user_input()
     cursor.execute("INSERT INTO users (name, thickness, gender, age) VALUES('{}', '{}', '{}', '{}')".format(new_user.name, new_user.thickness, new_user.gender, new_user.age))
+    connection.commit()
     print("user {} created".format(new_user.name))
 
+# prints all users
+def print_users():
+    rows = cursor.execute("SELECT name, age, user_id FROM users").fetchall()
+    print(rows)
 
 create_user()
+print_users()

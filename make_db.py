@@ -16,7 +16,7 @@ def init_follows_db():
 
 # create the inital posts table
 def init_posts_db():
-    cursor.execute("CREATE TABLE IF NOT EXISTS posts( post_id INTEGER PRIMARY KEY, author TEXT NOT NULL, content TEXT NOT NULL, time INTEGER NOT NULL, genre TEXT NOT NULL, likes INTEGER, dislikes INTEGER )")
+    cursor.execute("CREATE TABLE IF NOT EXISTS posts( post_id INTEGER PRIMARY KEY, author TEXT NOT NULL, content TEXT NOT NULL, time INTEGER NOT NULL, likes INTEGER, dislikes INTEGER )")
     print("initialized posts DB")
 
 
