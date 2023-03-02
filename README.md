@@ -52,7 +52,7 @@ python3 add_follower.py
 Create a post given a user and the content you want to post.
 
 ```
-python3 create_user.py
+python3 post.py
 ```
 
 ### Likes/Dislike Posts
