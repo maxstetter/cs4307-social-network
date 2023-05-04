@@ -3,6 +3,7 @@
 ## Max Stetter & Ben Jenks
 
 This is our social network for CS4307 at Utah Tech University.
+![music_preferences](https://user-images.githubusercontent.com/77369993/236081289-47486f41-b9a7-4adb-b9a1-214b39312a85.png)
 
 ## Schema
 
